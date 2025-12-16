@@ -8,7 +8,7 @@ DST_MANIFESTS_DIR="./opt/manifests"
 # in the format of "repo-org:repo-name:ref-name:source-folder" and key is the target folder under manifests/
 # ref-name can be a branch name, tag name, or a commit SHA (7-40 hex characters)
 # ref-name supports:
-# 1. "branch" - tracks latest commit on branch (e.g., main)
+# 1.. "branch" - tracks latest commit on branch (e.g., main)
 # 2. "tag" - immutable reference (e.g., v1.0.0)
 # 3. "branch@commit-sha" - tracks branch but pinned to specific commit (e.g., main@a1b2c3d4)
 
